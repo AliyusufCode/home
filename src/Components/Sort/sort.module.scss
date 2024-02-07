@@ -1,0 +1,199 @@
+.sort {
+  position: relative;
+  margin-right: 110px;
+  span {
+    color: greenyellow;
+    border-bottom: 1px dashed greenyellow;
+    cursor: pointer;
+  }
+}
+.popup {
+  margin-right: 10px;
+  position: absolute;
+  right: 0;
+  font-size: 20px;
+  margin-top: 15px;
+  background: #ffffff;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.09);
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 10px 0;
+  width: 160px;
+  ul {
+    overflow: hidden;
+    li {
+      padding: 12px 20px;
+      cursor: pointer;
+
+      &.active,
+      &:hover {
+        background: rgba(106, 124, 106, 0.05);
+        scale: 1.1;
+      }
+
+      &.active {
+        font-weight: bold;
+        color: greenyellow;
+      }
+    }
+  }
+}
+.sortIcons {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  height: 40px;
+  border-radius: 20px;
+  user-select: none;
+  border: 1px solid greenyellow;
+  cursor: pointer;
+  h4 {
+    padding: 10px;
+    font-size: 20px;
+    align-items: center;
+  }
+}
+.sortIconsSizes {
+  width: 40px;
+  height: 40px;
+}
+.close {
+  width: 22px;
+  height: 22px;
+  margin-left: 10px;
+  margin-top: 7px;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.5;
+    scale: 1.1;
+  }
+}
+@media (max-width: 890px) {
+  .sort {
+    .sortIcons {
+      width: 200px;
+      height: 30px;
+    }
+  }
+}
+@media (max-width: 770px) {
+  .sort {
+    margin-right: 90px;
+    .sortIcons {
+      width: 154px;
+    }
+  }
+
+  .sortIcons {
+    h4 {
+      font-size: 15px;
+    }
+    .sortIconsSizes {
+      width: 30px;
+      height: 30px;
+    }
+  }
+}
+@media (max-width: 609px) {
+  .sort {
+    .sortIcons {
+      width: 154px;
+    }
+  }
+
+  .sortIcons {
+    h4 {
+      font-size: 15px;
+    }
+    .sortIconsSizes {
+      width: 25px;
+      height: 25px;
+    }
+  }
+}
+@media (max-width: 601px) {
+  .sort {
+    margin-top: 20px;
+    margin-right: 0;
+  }
+}
+@media (max-width: 320px) {
+  .sort {
+    .sortIcons {
+      height: 14px;
+      width: 60px;
+    }
+    margin-top: 10px;
+  }
+
+  .sortIcons {
+    h4 {
+      font-size: 6px;
+    }
+    .sortIconsSizes {
+      width: 10px;
+      height: 10px;
+    }
+  }
+}
+
+@media (min-width: 120px) and (max-width: 480px) {
+  .popup {
+    margin-right: 10px;
+    position: absolute;
+    right: -100px;
+    font-size: 10px;
+    margin-top: 1px;
+    background: #ffffff;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 4px 0;
+    width: 80px;
+    ul {
+      overflow: hidden;
+      margin-right: 10px;
+      li {
+        padding: 6px 10px;
+        cursor: pointer;
+        font-size: 7px;
+        &.active,
+        &:hover {
+          background: rgba(106, 124, 106, 0.05);
+          scale: 1.1;
+        }
+
+        &.active {
+          font-weight: bold;
+          color: greenyellow;
+        }
+      }
+    }
+  }
+  .popup {
+    .close {
+      width: 10px;
+      height: 10px;
+      margin-right: 12px;
+    }
+  }
+  .sort {
+    margin-top: 0;
+    .sortIcons {
+      width: auto;
+      margin-top: 10px;
+      height: 20px;
+      border-radius: 4px;
+      padding: 0px 10px;
+      justify-content: center;
+      .sortIconsSizes {
+        width: 20px;
+        height: 20px;
+      }
+      h4 {
+        font-size: 9px;
+      }
+    }
+  }
+}

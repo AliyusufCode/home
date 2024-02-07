@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+
+.login {
+  width: 600px;
+  padding: 8% 0 0;
+  margin: auto;
+  font-family: "Comfortaa", cursive;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #ffffff;
+  border-radius: 10px;
+  max-width: 660px;
+
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+}
+.form input {
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  border-radius: 5px;
+  margin: 0 0 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  height: 40px;
+  text-align: center;
+  font-size: 19px;
+  font-family: "Comfortaa", cursive;
+}
+.form input:focus {
+  background: #dbdbdb;
+}
+.form button {
+  font-family: "Comfortaa", cursive;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4b6cb7;
+  width: 100%;
+  border: 0;
+  border-radius: 5px;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  margin-bottom: 12px;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+@media (min-width: 471px) and (max-width: 684px) {
+  .login {
+    width: 500px;
+  }
+}
+@media (max-width: 654px) {
+  .login {
+    width: 400px;
+  }
+  .form {
+    position: relative;
+    z-index: 1;
+    background: #ffffff;
+    border-radius: 10px;
+    max-width: 450px;
+
+    margin: 0 auto 100px;
+    padding: 40px;
+    text-align: center;
+  }
+  .form input {
+    outline: 0;
+
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    margin: 0 0 12px;
+    box-sizing: border-box;
+    font-size: 10px;
+    height: 35px;
+    text-align: center;
+    font-size: 19px;
+    font-family: "Comfortaa", cursive;
+  }
+
+  .form button {
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    padding: 11px;
+
+    font-size: 11px;
+    margin-bottom: 11px;
+  }
+}
+@media (max-width: 440px) {
+  .login {
+    width: 330px;
+  }
+  .form {
+    border-radius: 10px;
+    max-width: 450px;
+
+    margin: 0 auto 100px;
+    padding: 30px;
+  }
+}
+@media (max-width: 373px) {
+  .login {
+    width: 300px;
+  }
+}
+@media (max-width: 343px) {
+  .login {
+    width: 200px;
+  }
+  .form {
+    padding: 10px;
+  }
+}
