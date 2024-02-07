@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/home/static/css/main.7c16e2e8.css",
+    "main.js": "/home/static/js/main.f61b6c8d.js",
+    "static/media/box.png": "/home/static/media/box.00c2135676fbb3885e19.png",
+    "static/media/NoFavorite.png": "/home/static/media/NoFavorite.b0e896146083232e88d5.png",
+    "static/media/free-icon-heart-outline-61406.png": "/home/static/media/free-icon-heart-outline-61406.b752e88a27be526e4416.png",
+    "static/media/free-icon-close-3945547.png": "/home/static/media/free-icon-close-3945547.6d47a4b9466651d9a353.png",
+    "static/media/free-icon-add-3363871.png": "/home/static/media/free-icon-add-3363871.c108aa9d240ebe47d1f9.png",
+    "static/media/logoShopStore.png": "/home/static/media/logoShopStore.6dacefd5ed3a747758c5.png",
+    "static/media/free-icon-minus-2734848.png": "/home/static/media/free-icon-minus-2734848.fdcf7131df5532b9f8b6.png",
+    "static/media/shopIcon.png": "/home/static/media/shopIcon.f1255f97a67f8175d97a.png",
+    "static/media/smile.png": "/home/static/media/smile.868b28ba2f8cc594a590.png",
+    "static/media/heart.svg": "/home/static/media/heart.fb6fc173851dd67a64d51b7306e810d1.svg",
+    "static/media/liked.svg": "/home/static/media/liked.5d926b75507b45bd8c1c9c16499e4352.svg",
+    "static/media/backarrow1_80790.svg": "/home/static/media/backarrow1_80790.8d191df3e72c50febaa035b37d23fd8e.svg",
+    "index.html": "/home/index.html",
+    "main.7c16e2e8.css.map": "/home/static/css/main.7c16e2e8.css.map",
+    "main.f61b6c8d.js.map": "/home/static/js/main.f61b6c8d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c16e2e8.css",
+    "static/js/main.f61b6c8d.js"
+  ]
+}
