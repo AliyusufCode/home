@@ -1,8 +1,9 @@
 React Store
  
-  Технологии
-
-- React
+Технологии:
+- Js
+- ReactJS
+- React Hooks
 - Redux Toolkit
 - Axios
 - React Content Loader
